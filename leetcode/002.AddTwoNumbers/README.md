@@ -8,7 +8,7 @@
 
 - 两个空链表相加
 
-此时情况最简单，返回结果也是空链表。所以，有：
+此时情况最简单，返回结果也是空链表。所以：
 ```js
 let result = null
 ```
@@ -18,7 +18,7 @@ let result = null
 ```js
 if (L1 && !L2) {
   result = L1
-} else (!L1 && L2) {
+} else if (!L1 && L2) {
   result = L2
 }
 ```

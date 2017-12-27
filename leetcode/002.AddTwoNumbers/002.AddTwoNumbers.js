@@ -6,7 +6,7 @@ function addTwoNumbers(L1, L2) {
 
     if (result.val > 9) {
       result.next = addTwoNumbers(
-        new ListNode(1), // carry
+        new ListNode(1),
         addTwoNumbers(L1.next, L2.next)
       )
     } else {
