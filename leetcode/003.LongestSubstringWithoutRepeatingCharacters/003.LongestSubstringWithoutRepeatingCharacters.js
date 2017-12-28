@@ -14,7 +14,7 @@ function lengthOfLongestSubstring1(s) {
         if (sub.has(s[j])) {
           break
         } else {
-          sub.add(s[i])
+          sub.add(s[j])
         }
       }
       if (sub.size > len) {
