@@ -11,3 +11,4 @@ Algorithms notes and code and leetcode solution by JavaScript
 - [009.PalindromeNumber](leetcode/009.PalindromeNumber)
 - [010.RegularExpressionMatching](leetcode/010.RegularExpressionMatching)
 - [013.RomanToInteger](leetcode/013.RomanToInteger)
+- [026.RemoveDuplicatesFromSortedArray](leetcode/026.RemoveDuplicatesFromSortedArray)
