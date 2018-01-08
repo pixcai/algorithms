@@ -13,3 +13,4 @@ Algorithms notes and code and leetcode solution by JavaScript
 - [013.RomanToInteger](leetcode/013.RomanToInteger)
 - [026.RemoveDuplicatesFromSortedArray](leetcode/026.RemoveDuplicatesFromSortedArray)
 - [027.RemoveElement](leetcode/027.RemoveElement)
+- [028.ImplementstrStr](leetcode/028.ImplementstrStr)
