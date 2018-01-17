@@ -1,5 +1,5 @@
 function deleteDuplicates(head) {
-  const i = head;
+  let i = head;
 
   if (head === null) {
     return head
