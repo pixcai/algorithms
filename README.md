@@ -17,6 +17,7 @@ Algorithms notes and code and leetcode solution by JavaScript
 - [035.SearchInsertPosition](leetcode/035.SearchInsertPosition)
 - [058.LengthOfLastWord](leetcode/058.LengthOfLastWord)
 - [062.UniquePaths](leetcode/062.UniquePaths)
+- [063.UniquePathsII](leetcode/063.UniquePathsII)
 - [066.PlusOne](leetcode/066.PlusOne)
 - [075.SortColors](leetcode/075.SortColors)
 - [083.RemoveDuplicatesFromSortedList](leetcode/083.RemoveDuplicatesFromSortedList)
