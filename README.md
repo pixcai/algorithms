@@ -21,4 +21,5 @@ Algorithms notes and code and leetcode solution by JavaScript
 - [083.RemoveDuplicatesFromSortedList](leetcode/083.RemoveDuplicatesFromSortedList)
 - [088.MergeSortedArray](leetcode/088.MergeSortedArray)
 - [100.SameTree](leetcode/100.SameTree)
+- [744.FindSmallestLetterGreaterThanTarget](leetcode/744.FindSmallestLetterGreaterThanTarget)
 - [766.ToeplitzMatrix](leetcode/766.ToeplitzMatrix)
