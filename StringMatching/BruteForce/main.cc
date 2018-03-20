@@ -1,5 +1,3 @@
-#include <iostream>
-#include <string>
 #include "../define.h"
 
 int BFv1(const char *x, int m, const char *y, int n)
@@ -33,15 +31,4 @@ int BFv2(const char *x, int m, const char *y, int n)
   return -1;
 }
 
-int main() {
-  const char *w = "do";
-  const char *x = "or";
-  const char *y = "hello world";
-
-  std::cout << BFv1(w, 2, y, 11) << std::endl;
-  std::cout << BFv2(w, 2, y, 11) << std::endl;
-  std::cout << BFv1(x, 2, y, 11) << std::endl;
-  std::cout << BFv2(x, 2, y, 11) << std::endl;
-
-  return 0;
-}
+TEST2(BFv1, BFv2);

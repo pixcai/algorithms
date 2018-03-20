@@ -1,7 +1,6 @@
-#include <iostream>
-#include <string>
+#include "../define.h"
 
-#define REHASH(a, b, h) ((((h) - (a)*d) << 1) + (b))
+#define REHASH(a, b, h) ((((h) - (a) * d) << 1) + (b))
 
 int KR(const char *x, int m, const char * y, int n)
 {
@@ -29,14 +28,4 @@ int KR(const char *x, int m, const char * y, int n)
   return -1;
 }
 
-int main()
-{
-  const char *w = "do";
-  const char *x = "or";
-  const char *y = "hello world";
-
-  std::cout << KR(w, 2, y, 11) << std::endl; 
-  std::cout << KR(x, 2, y, 11) << std::endl; 
-
-  return 0;
-}
+TEST1(KR);
